@@ -7,7 +7,7 @@
 int main(int argc, char const *argv[])
 {
     FILE *fp1, *fp2;
-    void filecomp(File *fp1, File *fp2);
+    void filecomp(FILE *fp1, FILE *fp2);
 
     if (argc != 3) {
         fprintf(stderr, "comp: need two file names\n");
